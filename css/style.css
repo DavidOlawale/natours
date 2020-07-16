@@ -1,0 +1,100 @@
+/*
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+
+*/
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+@media screen and (max-width: 720px){
+    html{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 520px){
+    html{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 480px){
+    html{
+        font-size: 8px;
+    }
+}
+body{
+    padding: 0px;
+    margin: 0px
+}
+
+.header{
+    height: 30rem;
+    width: 100%;
+    background-image: linear-gradient(rgba(23, 71, 116, 0.5), rgba(11, 95, 22, 0.5)), url('/img/nat-1-large.jpg') ;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0px 100%);
+    position: relative;
+}
+.header-content{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header h1, h4{
+    color: #eee;
+    text-transform: uppercase;
+}
+.header h1{
+    letter-spacing: 2.5rem;
+    font-size: 3em;
+}
+.header h4{
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: .5rem;
+}
+.header-start-btn{
+    margin-top: 2rem;;
+    text-decoration: none;
+    border-radius: 100px !important;
+    background-color: coral;
+    padding: 1rem !important;
+    color: #ddd;
+}
+.logo-box{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.logo{
+    height: 25px;
+}
+
+.intro{
+    position: relative;
+    background-color: #eeeeee;
+    height: 30rem;
+}
+
+/* utility classes */
+.text-center{
+    text-align: center;
+}
+.btn{
+    padding: .5rem;
+    border-radius: 10px;
+    color: white;
+}
+
+.pb-3{
+    padding-bottom: 3rem;
+}
+.text-capitalize{
+    text-transform: capitalize;
+}
+.text-hash{
+    color: #464646;
+}
